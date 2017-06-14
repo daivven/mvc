@@ -1,0 +1,73 @@
+﻿body 
+{
+    font-size:12px;
+}
+
+.ftitle
+{
+    font-size:14px;
+	font-weight:bold;
+	color:#666;
+	padding:5px 0;
+	margin-bottom:20px;
+	border-bottom:1px solid #ccc;
+    }
+
+.fitem
+{
+    margin-bottom:15px;
+    }
+
+.fitem label
+{
+    display:inline-block;
+	width:90px;
+	text-align:right;
+	vertical-align:top;
+	margin-top:2px;
+    }
+.fitem input
+{
+    width:150px;
+    height:auto;
+    }
+ .fitem select
+ {
+     width:150px;
+     height:auto;
+     }
+ .fitem  textarea
+ {
+     width:300px;
+     height:200px;
+     }
+     
+  .searchitem
+  {
+       float:left;
+       margin-left:30px;
+       vertical-align:middle;
+       width:350px;
+       height:auto;
+       margin-top:15px;
+      }
+      
+. searchitem  select
+ {
+      width:200px;
+     height:auto;
+     }
+ 
+ .searchitem input
+{
+    width:200px;
+    height:auto;
+     }
+
+ .error
+ {
+     color:Red;
+      font-size:10px;
+      margin-left:5px;
+     }
+.

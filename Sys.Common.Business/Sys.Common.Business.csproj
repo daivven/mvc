@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0983DFF6-E462-4B5A-AC43-B882FA1A2B9C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sys.Common.Business</RootNamespace>
+    <AssemblyName>Sys.Common.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NVelocity, Version=1.1.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NVelocity.dll</HintPath>
+    </Reference>
+    <Reference Include="Omu.ValueInjecter, Version=2.3.1.0, Culture=neutral, PublicKeyToken=c7694541b0ac80e4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Omu.ValueInjecter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.77.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BadWordFilter.cs" />
+    <Compile Include="Cache\AspnetCache.cs" />
+    <Compile Include="Cache\CacheBase.cs" />
+    <Compile Include="Cache\ICache.cs" />
+    <Compile Include="CheckBoxListExCtrl.cs" />
+    <Compile Include="ConfigHelper.cs" />
+    <Compile Include="CookieHelper.cs" />
+    <Compile Include="Data\BaseRepository.cs" />
+    <Compile Include="Data\DbUtils.cs" />
+    <Compile Include="Data\FieldsBy.cs" />
+    <Compile Include="Data\Filter\FilterGroup.cs" />
+    <Compile Include="Data\Filter\FilterRule.cs" />
+    <Compile Include="Data\Filter\FilterTranslator.cs" />
+    <Compile Include="Data\IRepository.cs" />
+    <Compile Include="Data\OledbHelper.cs" />
+    <Compile Include="Data\Pageable.cs" />
+    <Compile Include="Data\ProcCustomPage.cs" />
+    <Compile Include="Data\ReaderInjection.cs" />
+    <Compile Include="Data\SetParamsValues.cs" />
+    <Compile Include="Data\SQLite\SqliteEasy.cs" />
+    <Compile Include="Data\SQLite\SQLiteHelper.cs" />
+    <Compile Include="Data\SQLServer\SqlEasy.cs" />
+    <Compile Include="Data\SQLServer\SQLHelper.cs" />
+    <Compile Include="Data\TableConvention.cs" />
+    <Compile Include="Data\TableNameAttribute.cs" />
+    <Compile Include="DynamicQueryable.cs" />
+    <Compile Include="FTP.cs" />
+    <Compile Include="GridViewExportUtil.cs" />
+    <Compile Include="JSONhelper.cs" />
+    <Compile Include="Key.cs" />
+    <Compile Include="MediaHelper.cs" />
+    <Compile Include="NVelocityHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\SingletonProvider.cs" />
+    <Compile Include="PublicMethod.cs" />
+    <Compile Include="SQLInjectionHelper.cs" />
+    <Compile Include="SqlRegexFilter.cs" />
+    <Compile Include="StringHelper.cs" />
+    <Compile Include="Upload\ImageHelper.cs" />
+    <Compile Include="Upload\Upload.cs" />
+    <Compile Include="ValidateCode\MyChar2G.cs" />
+    <Compile Include="ValidateCode\QQ.cs" />
+    <Compile Include="ValidateCode\VcodeImageCreator.cs" />
+    <Compile Include="ValidateCode\VcodeImageCreator2.cs" />
+    <Compile Include="ValidateCode\VcodeImageCreator3.cs" />
+    <Compile Include="ValidateCode\VcodePage.cs" />
+    <Compile Include="XmlHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dll\Newtonsoft.Json.dll" />
+    <Content Include="dll\Newtonsoft.Json.Net20.Merged.dll" />
+    <Content Include="dll\NVelocity.dll" />
+    <Content Include="dll\Omu.ValueInjecter.dll" />
+    <Content Include="dll\Omu.ValueInjecter.xml" />
+    <Content Include="dll\System.Data.SQLite.dll" />
+    <Content Include="dll\Xiucai.Common.dll" />
+    <Content Include="dll\Xiucai.Common.pdb" />
+    <Content Include="obj\Debug\Sys.Common.Business.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Sys.Common.Business.dll" />
+    <Content Include="obj\Debug\Sys.Common.Business.pdb" />
+    <Content Include="obj\Debug\Sys.Common.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Xiucai.Common.dll" />
+    <Content Include="obj\Debug\Xiucai.Common.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

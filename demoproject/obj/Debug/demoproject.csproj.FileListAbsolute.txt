@@ -1,0 +1,12 @@
+D:\【项目】\技术运动会\demo\demoproject\demoproject\obj\Debug\ResolveAssemblyReference.cache
+D:\【项目】\技术运动会\demo\demoproject\demoproject\bin\demoproject.dll
+D:\【项目】\技术运动会\demo\demoproject\demoproject\bin\demoproject.pdb
+D:\【项目】\技术运动会\demo\demoproject\demoproject\obj\Debug\demoproject.dll
+D:\【项目】\技术运动会\demo\demoproject\demoproject\obj\Debug\demoproject.pdb
+D:\【项目】\技术运动会\demo\demoproject\demoproject\bin\bookhelp.dll
+D:\【项目】\技术运动会\demo\demoproject\demoproject\bin\bookhelp.pdb
+D:\【项目】\技术运动会\demo\demoproject\demoproject\bin\Sys.Common.Business.dll
+D:\【项目】\技术运动会\demo\demoproject\demoproject\bin\Omu.ValueInjecter.dll
+D:\【项目】\技术运动会\demo\demoproject\demoproject\bin\NVelocity.dll
+D:\【项目】\技术运动会\demo\demoproject\demoproject\bin\Sys.Common.Business.pdb
+D:\【项目】\技术运动会\demo\demoproject\demoproject\bin\Omu.ValueInjecter.xml
